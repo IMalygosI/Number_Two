@@ -1,0 +1,68 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Number_Two.MainWindow"
+        Title="Number_Two"
+        WindowStartupLocation="CenterScreen">
+
+	<Grid>
+
+		<TextBlock Text="Please Enter your Phone number:" FontSize="26"
+			 HorizontalAlignment="Center" VerticalAlignment="Center"
+			 Margin="0 0 70 410">
+		</TextBlock>
+
+		<Button Content="Next" Background="#0277bd" Foreground="White" Name="Next"
+		  HorizontalAlignment="Center" VerticalAlignment="Center"
+		  Margin="0 0 423 270" Height="30" Width="50">
+		</Button>
+
+		<ComboBox HorizontalAlignment="Center" VerticalAlignment="Center"
+		  Margin="0 0 227 345" Height="10" Width="80">
+			<ComboBoxItem FontSize="10">0000</ComboBoxItem>
+			<ComboBoxItem>0001</ComboBoxItem>
+			<ComboBoxItem>0002</ComboBoxItem>
+			<ComboBoxItem>0003</ComboBoxItem>
+			<ComboBoxItem>0004</ComboBoxItem>
+			<ComboBoxItem>0005</ComboBoxItem>
+			<ComboBoxItem>0006</ComboBoxItem>
+			<ComboBoxItem>0007</ComboBoxItem>
+			<ComboBoxItem>0008</ComboBoxItem>
+			<ComboBoxItem>0009</ComboBoxItem>
+			<ComboBoxItem>0010</ComboBoxItem>
+		</ComboBox>
+
+		<ComboBox HorizontalAlignment="Center" VerticalAlignment="Center"
+		  Margin="0 0 395 345" Height="10" Width="80">
+			<ComboBoxItem FontSize="10">0000</ComboBoxItem>
+			<ComboBoxItem>0001</ComboBoxItem>
+			<ComboBoxItem>0002</ComboBoxItem>
+			<ComboBoxItem>0003</ComboBoxItem>
+			<ComboBoxItem>0004</ComboBoxItem>
+			<ComboBoxItem>0005</ComboBoxItem>
+			<ComboBoxItem>0006</ComboBoxItem>
+			<ComboBoxItem>0007</ComboBoxItem>
+			<ComboBoxItem>0008</ComboBoxItem>
+			<ComboBoxItem>0009</ComboBoxItem>
+			<ComboBoxItem>0010</ComboBoxItem>
+		</ComboBox>
+
+		<ComboBox HorizontalAlignment="Center" VerticalAlignment="Center"
+		Margin="0 0 55 345" Height="10" Width="80">
+			<ComboBoxItem FontSize="10">0000</ComboBoxItem>
+			<ComboBoxItem>0001</ComboBoxItem>
+			<ComboBoxItem>0002</ComboBoxItem>
+			<ComboBoxItem>0003</ComboBoxItem>
+			<ComboBoxItem>0004</ComboBoxItem>
+			<ComboBoxItem>0005</ComboBoxItem>
+			<ComboBoxItem>0006</ComboBoxItem>
+			<ComboBoxItem>0007</ComboBoxItem>
+			<ComboBoxItem>0008</ComboBoxItem>
+			<ComboBoxItem>0009</ComboBoxItem>
+			<ComboBoxItem>0010</ComboBoxItem>
+		</ComboBox>
+
+	</Grid>
+</Window>
